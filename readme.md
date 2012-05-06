@@ -9,24 +9,24 @@ Hook is available as npm package, so can be installed with ```npm``` command.
 Create instance of the hook while bypassing the necessary configuration for
 pusher client.
 
-  var Pusher = require('hook.io-pusher').Pusher;
+    var Pusher = require('hook.io-pusher').Pusher;
 
-  var pusher = new Pusher({
-    name: 'pusher-hook',
-    'pusher-appId': 'your app id',
-    'pusher-key': 'pusher API key',
-    'pusher-secret': 'pusher secret'
-  });
+    var pusher = new Pusher({
+      name: 'pusher-hook',
+      'pusher-appId': 'your app id',
+      'pusher-key': 'pusher API key',
+      'pusher-secret': 'pusher secret'
+    });
 
-  pusher.start();
+    pusher.start();
 
 ## Pushing event
 
 As soon as the Pusher hook is started you are able to push events. Spawn new vanilla hook with ```--repl``` option and try it.
 
-  ./node_modules/hookio/bin/hook --repl
+    ./node_modules/hookio/bin/hook --repl
 
-  > hook.emit('pusher::trigger', {channel: 'foo', event: 'say', payload: 'hello!'})
+    > hook.emit('pusher::trigger', {channel: 'foo', event: 'say', payload: 'hello!'})
 
 
 
