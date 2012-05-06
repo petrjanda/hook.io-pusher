@@ -5,9 +5,9 @@ var Pusher = require('../lib/main').Pusher;
 var pusher = new Pusher({
   name: 'pusher-hook',
   debug: true,
-  // appId: 'appId',
-  // key: 'key',
-  // secret: 'secret'
+  // 'pusher-appId': 'your app id',
+  // 'pusher-key': 'pusher API key',
+  // 'pusher-secret': 'pusher secret'
 });
 
 pusher.start();
