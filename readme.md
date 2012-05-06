@@ -9,7 +9,7 @@ Hook is available as npm package, so can be installed with ```npm``` command.
 Create instance of the hook while bypassing the necessary configuration for
 pusher client.
 
-javascript```
+```javascript
 var Pusher = require('hook.io-pusher').Pusher;
 
 var pusher = new Pusher({
