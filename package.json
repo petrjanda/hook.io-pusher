@@ -2,7 +2,7 @@
   "author": "Petr Janda <petr@ngneers.com> (ngneers.com)",
   "name": "hook.io-pusher",
   "description": "Hook.io hook for Pusher",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/petrjanda/hook.io-pusher.git"
