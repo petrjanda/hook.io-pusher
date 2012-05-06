@@ -1,6 +1,6 @@
 {
   "author": "Petr Janda <petr@ngneers.com> (ngneers.com)",
-  "name": "hookio-pusher",
+  "name": "hook.io-pusher",
   "description": "Hook.io hook for Pusher",
   "version": "0.0.1",
   "repository": {
